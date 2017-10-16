@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chinhpc.triphunter.Activity_Layout.trangchinh.ChiTietDiaDanh">
+
+    <TextView
+        android:id="@+id/txtTenDiaDanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:padding="10dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgHinhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/backroundtrip" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtchiTiet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="TextView" />
+    </ScrollView>
+</LinearLayout>

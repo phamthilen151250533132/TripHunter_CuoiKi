@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/trip2"
-    tools:context="com.example.chinhpc.triphunter.Activity_Layout.login_register.RegisterActivity"
+    tools:context="com.example.chinhpc.triphunter.Activity_Layout.login_register.login_trangchinh"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,45 +29,58 @@
             android:textColor="#e91a44"
             android:textSize="30dp" />
     </LinearLayout>
-    <EditText
-        android:layout_marginTop="100dp"
-        android:id="@+id/editEmail"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập email của bạn"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:drawablePadding="10dp"
-        android:background="#fff"
-        android:inputType="textEmailAddress"
-        android:drawableLeft="@drawable/logoemail"/>
-    <EditText
-        android:id="@+id/editMatKhau"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="******"
-        android:background="#fff"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:drawablePadding="10dp"
-        android:layout_marginTop="10dp"
-        android:inputType="textPassword"
-        android:drawableLeft="@drawable/loglogo"/>
+        android:text="Trip Hunter"
+        android:textColor="#e91a44"
+        android:textSize="30sp"
+        android:padding="30dp"
+        android:gravity="center"/>
+
     <Button
-        android:id="@+id/btndangnhap"
+        android:id="@+id/btnlogf"
+        android:layout_marginTop="60dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#e91a44"
-        android:textColor="#fff"
+        android:background="#3b5998"
+        android:drawableLeft="@drawable/logo"
+        android:paddingLeft="15dp"
+        android:text="Đăng nhập bằng Facebook"
         android:textAllCaps="false"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        android:text="Đăng nhập"/>
+        android:layout_margin="20dp"
+        android:textColor="@android:color/background_light" />
+
     <Button
+        android:id="@+id/btnlogg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quên mật khẩu?"
+        android:layout_marginTop="20dp"
+        android:background="#eb4026"
+        android:drawableLeft="@drawable/logog"
+        android:paddingLeft="15dp"
+        android:text="Đăng nhập bằng Google"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btn_logintrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:background="#ff2a60"
+        android:drawableLeft="@drawable/logotrip"
+        android:paddingLeft="15dp"
+        android:text="Đăng nhập với TripHunter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+    <Button
+        android:id="@+id/btnaddtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo tài khoản TripHunter"
         android:paddingTop="10dp"
         android:textSize="20sp"
         android:textColor="#e91a44"

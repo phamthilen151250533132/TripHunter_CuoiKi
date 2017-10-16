@@ -14,27 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity_Layout.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TripmainActivity" />
-        <activity android:name=".UserActivity" />
         <activity
-            android:name=".DangNhapActivity"
-            android:label="@string/title_activity_dang_nhap" />
-        <activity android:name=".LoginActivity" />
-        <activity
-            android:name=".Main_2Activity"
+            android:name=".Activity_Layout.trangchinh.Main_2Activity"
             android:label="@string/title_activity_test"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".ActionBar_testActivity"
-            android:label="@string/title_activity_action_bar_test"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".Activity_Layout.login_register.RegisterActivity" />
+        <activity android:name=".Activity_Layout.login_register.LoginActivity" />
+        <activity android:name=".Activity_Layout.trangchinh.TrangChinhActivity" />
+        <activity android:name=".Activity_Layout.canhan.ProfileActivity" />
+        <activity android:name=".Activity_Layout.trangchinh.NoiDung_diadanh" />
+        <!-- suppress AndroidDomInspection -->
+        <activity android:name=".Activity_Layout.trangchinh.DiaDanhActivity" />
+        <activity android:name=".Activity_Layout.trangchinh.TrangChinh" />
+        <activity android:name=".Activity_Layout.trangchinh.ChiTietDiaDanh" />
+        <activity android:name=".Activity_Layout.login_register.login_trangchinh" />
+        <activity android:name=".Activity_Layout.canhan.CaNhanActivity"></activity>
     </application>
 
 </manifest>

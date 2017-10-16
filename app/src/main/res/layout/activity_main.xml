@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/triphunter3"
+    android:background="@drawable/trip2"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -76,8 +76,8 @@
                 android:id="@+id/btnlogf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/com_facebook_button_background_color"
-                android:drawableLeft="@drawable/com_facebook_button_icon"
+                android:background="#3b5998"
+                android:drawableLeft="@drawable/logo"
                 android:paddingLeft="15dp"
                 android:text="Đăng nhập bằng Facebook"
                 android:textAllCaps="false"
@@ -96,12 +96,12 @@
                 android:textColor="@android:color/background_light" />
 
             <Button
-                android:id="@+id/btnlogtr"
+                android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@color/colorAccent"
-                android:drawableLeft="@drawable/logotripp"
+                android:background="#ff2a60"
+                android:drawableLeft="@drawable/logotrip"
                 android:paddingLeft="15dp"
                 android:text="Tạo tài khoản TripHunter"
                 android:textAllCaps="false"
@@ -132,7 +132,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:text="Đăng nhập"
                     android:textAllCaps="false"
-                    android:textColor="#000000" />
+                    android:textColor="#000" />
             </LinearLayout>
 
         </LinearLayout>

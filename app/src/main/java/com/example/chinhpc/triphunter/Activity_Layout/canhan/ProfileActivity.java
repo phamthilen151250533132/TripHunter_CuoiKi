@@ -1,9 +1,11 @@
-package com.example.chinhpc.triphunter;
+package com.example.chinhpc.triphunter.Activity_Layout.canhan;
 
 import android.app.ListActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+
+import com.example.chinhpc.triphunter.R;
 
 
 public class ProfileActivity extends ListActivity {

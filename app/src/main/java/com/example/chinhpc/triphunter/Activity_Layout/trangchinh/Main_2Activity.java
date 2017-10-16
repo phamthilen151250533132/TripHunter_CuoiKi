@@ -1,5 +1,6 @@
-package com.example.chinhpc.triphunter;
+package com.example.chinhpc.triphunter.Activity_Layout.trangchinh;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,6 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.chinhpc.triphunter.Activity_Layout.canhan.ProfileActivity;
+import com.example.chinhpc.triphunter.R;
 
 public class Main_2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -57,10 +61,9 @@ public class Main_2Activity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_khac) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -72,6 +75,8 @@ public class Main_2Activity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent intent = new Intent(this, ProfileActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

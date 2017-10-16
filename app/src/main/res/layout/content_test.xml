@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.chinhpc.triphunter.Main_2Activity"
+    tools:context="com.example.chinhpc.triphunter.Activity_Layout.trangchinh.Main_2Activity"
     tools:showIn="@layout/app_bar_test">
 
-    <include layout="@layout/activity_trang_chinh" />
+    <include
+        layout="@layout/activity_trang_chinh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.chinhpc.triphunter;
+package com.example.chinhpc.triphunter.Activity_Layout.trangchinh;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TabHost;
+
+import com.example.chinhpc.triphunter.Adapter.ViewPagerAdapter;
+import com.example.chinhpc.triphunter.R;
 
 public class TrangChinhActivity extends AppCompatActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener, SearchView.OnQueryTextListener{
 //    ListView listView;

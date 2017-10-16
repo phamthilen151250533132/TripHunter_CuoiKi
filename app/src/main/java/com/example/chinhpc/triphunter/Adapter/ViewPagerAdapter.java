@@ -1,8 +1,11 @@
-package com.example.chinhpc.triphunter;
+package com.example.chinhpc.triphunter.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.chinhpc.triphunter.Activity_Layout.trangchinh.DiaDanhActivity;
+import com.example.chinhpc.triphunter.Activity_Layout.trangchinh.NoiBatActivity;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter{
 
